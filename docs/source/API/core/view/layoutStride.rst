@@ -56,21 +56,21 @@ Description
 
    .. cppkokkos:function:: LayoutStride(LayoutStride const&) = default;
 
-      Default copy constructor, element-wise copies the other Layout
+      Default copy constructor, copies the other Layout element-wise
 
    .. cppkokkos:function:: LayoutStride(LayoutStride&&) = default;
 
-      Default move constructor, element-wise moves the other Layout
+      Default move constructor, moves the other Layout element-wise
 
    .. rubric:: Assignment operators
 
    .. cppkokkos:function:: LayoutStride& operator=(LayoutStride const&) = default;
 
-      Default copy assignment, element-wise copies the other Layout
+      Default copy assignment, copies the other Layout element-wise
 
    .. cppkokkos:function:: LayoutStride& operator=(LayoutStride&&) = default;
 
-      Default move assignment, element-wise moves the other Layout
+      Default move assignment, moves the other Layout element-wise
 
    .. rubric:: Functions
 
